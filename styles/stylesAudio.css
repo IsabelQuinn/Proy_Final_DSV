@@ -52,6 +52,23 @@ audio {
   justify-content: center; 
   margin-top: 50px;
 }
+
+@media (max-width: 768px) {
+  nav {
+    height: 100px;
+    align-items: center;
+    padding: 10px 20px;
+  }
+
+  .arrow svg {
+    margin-right: 20px;
+  }
+
+  .title {
+    font-size: 24px;
+  }
+}
+
 /* Estilo para pantallas con ancho igual o menor a 1024px */
 @media screen and (max-width: 1024px) {
   audio {
